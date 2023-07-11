@@ -8,9 +8,10 @@ static class LogLine
     {
         string pattern = @".*:\s(.*)";
         Match validMessage = Regex.Match(logLine, pattern);
-        string trimedMessage = validMessage.Groups[1].Value.Trim();
 
-        return validMessage.Success ? trimedMessage : logLine;
+        return validMessage.Success 
+            ? validMessage.Groups[1].Value.Trim() 
+            : logLine;
     }
 
     public static string LogLevel(string logLine)
