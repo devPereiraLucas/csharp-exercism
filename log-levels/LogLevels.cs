@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
 static class LogLine
@@ -14,7 +15,12 @@ static class LogLine
 
     public static string LogLevel(string logLine)
     {
-        throw new NotImplementedException("Please implement the (static) LogLine.LogLevel() method");
+        string pattern = @"\[(.*?)\]";
+        Match validMessage = Regex.Match(logLine, pattern);
+
+        return validMessage.Success 
+            ? validMessage.Groups[1].Value.Trim().ToLower() 
+            : logLine;
     }
 
     public static string Reformat(string logLine)
