@@ -1,5 +1,3 @@
-using System;
-using System.Reflection.Emit;
 using System.Text.RegularExpressions;
 
 static class LogLine
@@ -26,6 +24,13 @@ static class LogLine
 
     public static string Reformat(string logLine)
     {
-        throw new NotImplementedException("Please implement the (static) LogLine.Reformat() method");
+        string message = Message(logLine);
+        string levelMessage = LogLevel(logLine);
+        
+        string levelMessageReplaced = $"({levelMessage})";
+
+        string messageConcatWithLevel = string.Join(' ', message, levelMessageReplaced);
+
+        return messageConcatWithLevel;
     }
 }
