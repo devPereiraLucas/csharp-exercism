@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuciansLusciousLasagna", "l
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnnalynsInfiltration", "annalyns-infiltration\AnnalynsInfiltration.csproj", "{D9E5D19A-C5EF-4252-AC8F-B209862862CB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogLevels", "log-levels\LogLevels.csproj", "{A10C92BE-68C7-424C-A4B7-18A8758D295B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9E5D19A-C5EF-4252-AC8F-B209862862CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E5D19A-C5EF-4252-AC8F-B209862862CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E5D19A-C5EF-4252-AC8F-B209862862CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10C92BE-68C7-424C-A4B7-18A8758D295B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10C92BE-68C7-424C-A4B7-18A8758D295B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10C92BE-68C7-424C-A4B7-18A8758D295B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10C92BE-68C7-424C-A4B7-18A8758D295B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
