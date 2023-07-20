@@ -18,7 +18,7 @@ public class LogAnalysisTests
         Assert.Equal(" test", "I am the 2nd test".SubstringAfter("2nd"));
     }
 
-    /*
+    
     [Fact]
     [Task(2)]
     public void SubstringBetween()
