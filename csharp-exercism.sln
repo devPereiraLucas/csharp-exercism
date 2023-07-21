@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogAnalysis", "log-analysis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneNumberAnalysis", "phone-number-analysis\PhoneNumberAnalysis.csproj", "{06EC58D9-74FA-49B0-A4BB-59EB4100A123}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarsAssemble", "cars-assemble\CarsAssemble.csproj", "{3DE84A01-BBFB-4092-BABB-DAC5BAE3D0E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{06EC58D9-74FA-49B0-A4BB-59EB4100A123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06EC58D9-74FA-49B0-A4BB-59EB4100A123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06EC58D9-74FA-49B0-A4BB-59EB4100A123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE84A01-BBFB-4092-BABB-DAC5BAE3D0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE84A01-BBFB-4092-BABB-DAC5BAE3D0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE84A01-BBFB-4092-BABB-DAC5BAE3D0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE84A01-BBFB-4092-BABB-DAC5BAE3D0E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
